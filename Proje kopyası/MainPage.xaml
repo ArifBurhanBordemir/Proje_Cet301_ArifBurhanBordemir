@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proje.MainPage">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ScrollView Grid.Row="0"
+                    Grid.ColumnSpan="4"
+                    BackgroundColor="White"
+                    >
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+                <Label Text="Arkif"></Label>
+
+
+            </VerticalStackLayout>
+            
+        </ScrollView>
+        <ImageButton Grid.Row="2" Grid.Column="0" Source="https://www.shutterstock.com/image-vector/home-icon-600w-160210421.jpg" x:Name="anasayfa" ></ImageButton>
+        <ImageButton Grid.Row="2" Grid.Column="2" Source="https://static.vecteezy.com/system/resources/thumbnails/001/504/972/small/search-icon-free-vector.jpg" Clicked="AramaSayfası_Clicked"> </ImageButton>
+        <ImageButton Grid.Row="2" Grid.Column="3" Source="https://cdn-icons-png.flaticon.com/512/3682/3682281.png" BorderColor="Black" Clicked="Profil_Clicked"></ImageButton>
+        <ImageButton Grid.Row="2" Grid.Column="1" Source="https://e7.pngegg.com/pngimages/903/944/png-clipart-computer-icons-scalable-graphics-icon-design-activity-icons-text-rectangle-thumbnail.png" BorderColor="Black" Clicked="EtkinlikSayfası_Clicked"> </ImageButton>
+
+
+    </Grid>
+
+</ContentPage>
+

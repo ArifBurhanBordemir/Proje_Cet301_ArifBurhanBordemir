@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proje.Addstory"
+             Title="Addstory">
+
+    <VerticalStackLayout>
+        
+            <Entry x:Name="Name" Placeholder="Name"></Entry>
+            <Entry x:Name="Location" Placeholder="Location"></Entry>
+            <Entry x:Name="Imageurl" Placeholder="Imageurl"></Entry>
+            <Button x:Name="Save" Text="Save" Clicked="Savebuton_Clicked"></Button>
+    
+    
+        <ListView  x:Name="ListView"> 
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Imageurl}"></Label>
+                            <Label Text="{Binding Location}"></Label>
+                        </VerticalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>
